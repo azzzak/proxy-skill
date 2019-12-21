@@ -1,0 +1,9 @@
+.env
+.git
+.github
+.gitignore
+.cache
+*.md
+LICENSE
+VERSION
+Makefile
