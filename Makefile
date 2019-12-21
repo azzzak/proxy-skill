@@ -6,7 +6,6 @@ LATEST	:= ${NAME}:latest
 
 image:
 	@docker build --rm --no-cache --build-arg APP_VER=${GIT_VER} -t proxy-skill .
-	# @docker build --rm --no-cache --build-arg APP_VER=${GIT_VER} -t ${IMAGE} -t ${LATEST} .
 
 push:
 	@docker push ${NAME}
